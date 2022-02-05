@@ -25,3 +25,15 @@ Common Function Types
 * pure - function will not modify or even read the contract's data
 * payable - when someon call this function they might send ether along
 
+2 Ways of running a function
+1. 'calling' a function
+** cannot modify the contract's data
+** can return data
+** runs instantly
+** free todo
+2. sending a transation to a function
+** can modify a contract's data
+** takes time to execute
+** returns the transaction hash
+** costs money
+
